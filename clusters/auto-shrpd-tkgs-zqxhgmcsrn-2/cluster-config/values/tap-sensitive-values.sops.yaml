@@ -1,0 +1,28 @@
+tap_install:
+    sensitive_values:
+        shared:
+            image_registry:
+                project_path: ENC[AES256_GCM,data:4aJSFlN9HlmaMS+0Q6Cy1BagVURIKwQPcOAlFVNzTCHLulpmAbQ1YfAeq0Hq090w68dibhpiKIeykBuNERyqjkdn9hYM3FaKsxxwyZFREulIUqk=,iv:q8kYzi1XZ+ocnqBwsHGnttnwUF4v8t0i/GBDP+jikj8=,tag:LHjVm49u4oYgdD1DBxQUpA==,type:str]
+                secret:
+                    name: ENC[AES256_GCM,data:D+nnCNxUCw4/+0eVmdhDugraoPI=,iv:LYroKsbS69wdtvxiqryFLUeHkWYzqQECToqSUcvQcPQ=,tag:L9MB/HHtWlec549Eegmvfg==,type:str]
+                    namespace: ENC[AES256_GCM,data:BcjfUpobEw==,iv:ivi1L/b8MJ4iv146AaLwc2psR11o4AARNzqhaBe2T30=,tag:RXkeMRww7NRV2i9S8g0ozg==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age140kfw9jqh7d63svrgf8rpjaf8mteg507va4s98pnjtl975qe6stqfpaxvv
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBldUhsNkxRRVh2UGc0a2c4
+            U2FmaXhLT0dkblEyUjlBN3cxR0FDL215NlhnCkpBenNXcnNhZW5lM1NnNnpVRFR4
+            c1FWMnBkSVBWaU1UZ3k5QnE4aCtiMzgKLS0tIG04QUxEWGptQmM1cHNLbmFXaHcr
+            SDlIMzhDY20wdXBOcFhVYnlFcG14ZHcKhBWYZ9XI1/IlUk6J1nbyMFVskic8h3Ve
+            Hpgq5Bz17ePtznZOxHUcUR0Y/sVbVRwOJg0632St9MsKqGQl9iloKA==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2024-04-30T22:55:58Z"
+    mac: ENC[AES256_GCM,data:blQ/g/KyletH3YdIOLM3d1PEH1D6OjLgSwDZz/N6TcoZOz30oabfFtRU7VQugBLepjm/D/HYkPe8DXFHobtchWI/W2hmfK7imqD9ZjJkMHbdifwz+OG3TQIrhT21xFXQBwsmYOFse2GE6R/gbt/TsKQHcMZK+3KA7biEhwkUo5o=,iv:hWM1qx5XB76mpe6F7pf+pUZEyTHrkdv9G18OuMUL6m8=,tag:0I+Yov5Z8nG2+oPJwi3RVg==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3
